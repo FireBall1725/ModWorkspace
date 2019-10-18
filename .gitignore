@@ -1,0 +1,13 @@
+/*
+!/.gitignore
+!/gradle
+!/gradlew
+!/gradlew.bat
+!/LICENSE
+!/README.md
+!/build.gradle
+!/settings.gradle
+!/workspace
+.DS_Store
+/workspace/run
+/workspace/build

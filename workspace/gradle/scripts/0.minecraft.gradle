@@ -1,0 +1,71 @@
+apply plugin: 'net.minecraftforge.gradle'
+
+minecraft {
+  mappings channel: "${mcp_channel}", version: "${mcp_version}"
+
+  runs {
+    client {
+      workingDirectory project.file('run')
+      mods {
+        FireLib2 {
+          source project(':FireLib2').sourceSets.main
+        }
+        // hue {
+        //   source project(':hue').sourceSets.main
+        // }
+        SimplyGrindstone {
+          source project(':SimplyGrindstone').sourceSets.main
+        }
+        MiniCoal2 {
+          source project(':MiniCoal2').sourceSets.main
+        }
+        DevWorld2 {
+          source project(':DevWorld2').sourceSets.main
+        }
+      }
+    }
+    
+    server {
+      workingDirectory project.file('run')
+      mods {
+        FireLib2 {
+          source project(':FireLib2').sourceSets.main
+        }
+        // hue {
+        //   source project(':hue').sourceSets.main
+        // }
+        SimplyGrindstone {
+          source project(':SimplyGrindstone').sourceSets.main
+        }
+        MiniCoal2 {
+          source project(':MiniCoal2').sourceSets.main
+        }
+        DevWorld2 {
+          source project(':DevWorld2').sourceSets.main
+        }
+      }
+    }
+
+    data {
+      workingDirectory project.file('run')
+      args '--mod', project_name, '--all', '--output', file('src/generated/resources/')
+      mods {
+        FireLib2 {
+          source project(':FireLib2').sourceSets.main
+        }
+        // hue {
+        //   source project(':hue').sourceSets.main
+        // }
+        SimplyGrindstone {
+          source project(':SimplyGrindstone').sourceSets.main
+        }
+        MiniCoal2 {
+          source project(':MiniCoal2').sourceSets.main
+        }
+        DevWorld2 {
+          source project(':DevWorld2').sourceSets.main
+        }
+      }
+    }
+  }
+}

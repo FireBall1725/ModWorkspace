@@ -1,0 +1,24 @@
+repositories {
+  mavenLocal()
+  mavenCentral()
+  maven {
+    name "CurseForge"
+    url "https://minecraft.curseforge.com/api/maven/"
+  }
+
+  maven {
+    name "FireBall1725 maven"
+    url "https://repo.erins.net/maven"
+  }
+}
+
+dependencies {
+  minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+  compile project(':FireLib2')
+  // compile project(':hue')
+  compile project(':SimplyGrindstone')
+
+  compile project(':MiniCoal2')
+  compile project(':DevWorld2')
+}
