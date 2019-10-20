@@ -18,3 +18,7 @@ The mods included in this workspace are
 * [Fire Library 2](https://github.com/FireBall1725/FireLib2) - _Library mod for my bigger mods_
 * [Simply Grindstone](https://github.com/FireBall1725/SimplyGrindstone) - _Adds grindstones to the game, used to process ores_
 * [Hue](https://github.com/FireBall1725/hue) - _A light mod, adding cool lighting features_
+
+## Boilr Template
+
+todo

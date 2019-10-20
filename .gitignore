@@ -1,12 +1,13 @@
 /*
 !/gradle
-!/ModTemplate
+!/template
 !/workspace
 !/.gitignore
 !/build.gradle
 !/gradlew
 !/gradlew.bat
 !/LICENSE
+!/project.json
 !/README.md
 !/settings.gradle
 .DS_Store
