@@ -1,4 +1,4 @@
-package ca.fireball1725.mods.{{ ModNameLower }};
+package ca.fireball1725.mods.{{ ModName | toLower }};
 
 import net.minecraftforge.fml.common.Mod;
 
