@@ -21,4 +21,16 @@ The mods included in this workspace are
 
 ## Boilr Template
 
-todo
+This repo also includes a boilr template to create new Minecraft Mod
+
+### Installing boilr
+
+`$ go get -u -v github.com/seanlatimer/boilr/...`
+
+### Download the Minecraft Boilr template
+
+`$ boilr template download fireball1725/ModWorkspace mod -f`
+
+### Creating a new Minecraft mod using Boilr
+
+`$ boilr template use mod path/to/new/mod`
