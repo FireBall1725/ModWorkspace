@@ -1,4 +1,8 @@
 {
+  "CopyOnly": [
+    ".chglog/CHANGELOG.tpl.md",
+    "gradle/wrapper/gradle-wrapper.jar"
+  ],
   "ModName": "FireMod-1.14",
   "GithubProject": "",
   "Vendor": "FireBall1725",
