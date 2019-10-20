@@ -3,21 +3,21 @@ loaderVersion="[28,)"
 issueTrackerURL=""
 
 [[mods]]
-modId="{CHANGEME:ModName}"
+modId="{{ ModName }}"
 version="${file.jarVersion}"
-displayName="{CHANGEME:ModName}"
+displayName="{{ ModName }}"
 displayURL=""
 authors="FireBall1725"
 description=""
 
-[[dependencies.{CHANGEME:ModName}]]
+[[dependencies.{{ ModName }}]]
   modId="forge"
   mandatory=true
   versionRange="[28,)"
   ordering="NONE"
   side="CLIENT"
 
-[[dependencies.{CHANGEME:ModName}]]
+[[dependencies.{{ ModName }}]]
   modId="minecraft"
   mandatory=true
   versionRange="[1.14.4]"
